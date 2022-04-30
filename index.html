@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LiangZhang's Website</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="style-global.css">
+      <link rel="stylesheet" href="style-landing.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="LiangResume.pdf" target="_blank" class="link link--dark"><i class="fa fa-file"></i> Resume</a></li>
+        <li class="menu__item"><a href="https://www.linkedin.com/in/liang-zhang-0982291b5/" target="_blank" class="link link--dark"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+        <li class="menu__item"><a href="https://github.com/LiangZhang21" target="_blank" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title">Liang Zhang</h1>
+      <p class="hero__description">Student at University of Minnesota, Twin Cities</p>
+    </div>
+    <div class="hero__terminal">
+      <pre>
+        <!-- Info -->
+        <code class="demo">LiangZhang ~ $ </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <!--Projects-->
+      <div>
+        <h3 class="section__title title">Projects</h3>
+        <hr>
+      </div>
+      <div class="project">
+        <div class="project__item">
+          <h3 class="section__title">AI Rescue Drone| <a class="link link--light" href="" target="_blank"><i class="fa fa-github"></i> View Code</a></h3>
+          <p>Technologies and Skills Utilized: C++, Javascript, and other search algorithms</p>
+          <p>-The drone preforms DFS, BFS search on the noded graph UMN campus map, then uses the
+            Canny Edge filter to outline the object that needs to be rescued.</p>
+        </div>
+        <div class="project__item">
+          <h3 class="section__title">Image Filters| <a class="link link--light" href="" target="_blank"><i class="fa fa-github"></i> View Code</a></h3>
+          <p>Technologies and Skills Utilized: C++</p>
+          <p>-Implemented threshold, gaussian blur, hysteresis, mean blur, pixelate, and canny edge filters. </p>
+        </div>
+        <div class="project__item">
+          <h3 class="section__title">Sudoku Auto Solver | <a class="link link--light" href="https://github.com/LiangZhang21/sudoku_auto_solver" target="_blank"><i class="fa fa-github"></i> View Code</a></h3>
+          <p>Technologies and Skills Utilized: Python, Pygame, and backtracking algorithm</p>
+          <p>-Created an AI bot that can generate the solution base on the Sudoku puzzle.</p>
+          <p>-Used Pygame library to create the game & user interface.</p>
+          <p></p>
+        </div>
+        <div class="project__item">
+          <h3 class="section__title">AI Music Bot | <a class="link link--light" href="https://github.com/nickvichai/discord-bot" target="_blank"><i class="fa fa-github"></i> View Code</a></h3>
+          <p>Coded a discord bot to take commands from user input and handled them accordingly. Worked as a Full-Stack Developer on an agile team.</p>
+          <p>The AI reads a command that starts with a "!" followed by an argument (URL, or search criteria.) Searches for an audio file and adds to a playlist.</p>
+          <p>Base design created so far, looking to implement more reactive features.</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="experience">
+      <div class="wrapper">
+        <h3 class="section__title title">Work Experience</h3>
+        <hr>
+        <div class="experience__item">
+          <div class="experience__meta">
+            <h4 class="experience__title">Univiersity of Minnesota IT </h4>
+            <p> Nov 2021 - Jan 2022 </p>
+            <p>-Support students and faculities with any newwork, system-wide applications problems.</p>
+            <p>-Provide remote diagnostic technical support.</p>
+          </div>
+        </div>
+        <div class="experience__item">
+          <div class="experience__meta">
+            <h4 class="experience__title">MnTAP Web & Data Management Assistant </h4>
+            <p> May 2021 - Oct 2021 </p>
+            <p>-Update and manage clients information using Salesforce & WordPress.</p>
+            <p>-Helped code the Pneumatic to Electric Tool Cost Calculator for MnTAP.</p>
+          </div>
+        </div>
+
+        <br><br>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
